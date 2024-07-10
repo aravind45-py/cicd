@@ -27,6 +27,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: cicd:latest
+          tags: aravind880/cicd:latest
           build-args: |
             SECRET_KEY=${{ secrets.DB_PASSWORD }}
